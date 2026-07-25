@@ -43,5 +43,3 @@ FROM estadistica_bateo
 WHERE id_jugador = 25
 GROUP BY id_jugador;
 
--- Nota para el reporte PDF: Ahora verás un "Index Scan" o "Bitmap Index Scan".
--- El tiempo de ejecución (Execution Time) habrá bajado drásticamente.
