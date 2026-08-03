@@ -24,7 +24,7 @@ FROM estadistica_bateo
 WHERE id_jugador = 25
 GROUP BY id_jugador;
 
--- Nota para el reporte PDF: Aquí verás un "Seq Scan" (Escaneo secuencial completo).
+--Aquí verás un "Seq Scan" (Escaneo secuencial completo).
 
 
 -- -------------------------------------------------------------------------
